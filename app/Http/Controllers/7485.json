@@ -1,0 +1,511 @@
+{
+            "id": 3946865459371,
+            "admin_graphql_api_id": "gid://shopify/Order/3946865459371",
+            "app_id": 580111,
+            "browser_ip": "126.89.203.161",
+            "buyer_accepts_marketing": true,
+            "cancel_reason": null,
+            "cancelled_at": null,
+            "cart_token": null,
+            "checkout_id": 21433606996139,
+            "checkout_token": "5c01c9235e764014415a7350cc67c135",
+            "client_details": {
+                "accept_language": "ja-jp",
+                "browser_height": 715,
+                "browser_ip": "126.89.203.161",
+                "browser_width": 414,
+                "session_hash": null,
+                "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1"
+            },
+            "closed_at": null,
+            "confirmed": true,
+            "contact_email": "atumi_ori_812@ezweb.ne.jp",
+            "created_at": "2021-08-13T21:13:31+09:00",
+            "currency": "JPY",
+            "current_subtotal_price": "5600",
+            "current_subtotal_price_set": {
+                "shop_money": {
+                    "amount": "5600",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "5600",
+                    "currency_code": "JPY"
+                }
+            },
+            "current_total_discounts": "1000",
+            "current_total_discounts_set": {
+                "shop_money": {
+                    "amount": "1000",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "1000",
+                    "currency_code": "JPY"
+                }
+            },
+            "current_total_duties_set": null,
+            "current_total_price": "5600",
+            "current_total_price_set": {
+                "shop_money": {
+                    "amount": "5600",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "5600",
+                    "currency_code": "JPY"
+                }
+            },
+            "current_total_tax": "0",
+            "current_total_tax_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "customer_locale": "ja",
+            "device_id": null,
+            "discount_codes": [
+                {
+                    "code": "mikan500",
+                    "amount": "1000",
+                    "type": "fixed_amount"
+                }
+            ],
+            "email": "atumi_ori_812@ezweb.ne.jp",
+            "financial_status": "pending",
+            "fulfillment_status": "fulfilled",
+            "gateway": "Cash on Delivery (COD)",
+            "landing_site": "/wallets/checkouts.json",
+            "landing_site_ref": null,
+            "location_id": null,
+            "name": "#7485",
+            "note": null,
+            "note_attributes": [],
+            "number": 6485,
+            "order_number": 7485,
+            "order_status_url": "https://todoku-yo.net/51123683499/orders/2bfdf9cf1614750929ea598724484589/authenticate?key=d52754c2db72d6560996be32e63ff105",
+            "original_total_duties_set": null,
+            "payment_gateway_names": [
+                "Cash on Delivery (COD)"
+            ],
+            "phone": null,
+            "presentment_currency": "JPY",
+            "processed_at": "2021-08-13T21:13:30+09:00",
+            "processing_method": "manual",
+            "reference": null,
+            "referring_site": "https://todoku-yo.net/products/natumi-mikanhachimitu?utm_source=line&utm_medium=push&utm_campaign=mikanhachimitu-line",
+            "source_identifier": null,
+            "source_name": "web",
+            "source_url": null,
+            "subtotal_price": "5600",
+            "subtotal_price_set": {
+                "shop_money": {
+                    "amount": "5600",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "5600",
+                    "currency_code": "JPY"
+                }
+            },
+            "tags": "",
+            "tax_lines": [],
+            "taxes_included": true,
+            "test": false,
+            "token": "2bfdf9cf1614750929ea598724484589",
+            "total_discounts": "1000",
+            "total_discounts_set": {
+                "shop_money": {
+                    "amount": "1000",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "1000",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_line_items_price": "6600",
+            "total_line_items_price_set": {
+                "shop_money": {
+                    "amount": "6600",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "6600",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_outstanding": "5600",
+            "total_price": "5600",
+            "total_price_set": {
+                "shop_money": {
+                    "amount": "5600",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "5600",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_price_usd": "50.72",
+            "total_shipping_price_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_tax": "0",
+            "total_tax_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_tip_received": "0",
+            "total_weight": 0,
+            "updated_at": "2021-08-19T10:12:47+09:00",
+            "user_id": null,
+            "billing_address": {
+                "first_name": "あつみ",
+                "address1": "高尾1787ー43",
+                "phone": "09071328620",
+                "city": "仁多郡奥出雲町",
+                "zip": "699-1512",
+                "province": "Shimane",
+                "country": "Japan",
+                "last_name": " 折出",
+                "address2": "",
+                "company": null,
+                "latitude": null,
+                "longitude": null,
+                "name": "あつみ  折出",
+                "country_code": "JP",
+                "province_code": "JP-32"
+            },
+            "customer": {
+                "id": 4626742608043,
+                "email": "atumi_ori_812@ezweb.ne.jp",
+                "accepts_marketing": true,
+                "created_at": "2021-02-02T21:49:02+09:00",
+                "updated_at": "2021-08-13T21:13:32+09:00",
+                "first_name": "あつみ",
+                "last_name": "折出",
+                "orders_count": 15,
+                "state": "disabled",
+                "total_spent": "79342.00",
+                "last_order_id": 3946865459371,
+                "note": null,
+                "verified_email": true,
+                "multipass_identifier": null,
+                "tax_exempt": false,
+                "phone": null,
+                "tags": "",
+                "last_order_name": "#7485",
+                "currency": "JPY",
+                "accepts_marketing_updated_at": "2021-02-02T21:49:03+09:00",
+                "marketing_opt_in_level": "single_opt_in",
+                "tax_exemptions": [],
+                "admin_graphql_api_id": "gid://shopify/Customer/4626742608043",
+                "default_address": {
+                    "id": 6270932189355,
+                    "customer_id": 4626742608043,
+                    "first_name": "あつみ",
+                    "last_name": "折出",
+                    "company": null,
+                    "address1": "高尾1787ー43",
+                    "address2": "",
+                    "city": "仁多郡奥出雲町",
+                    "province": "Shimane",
+                    "country": "Japan",
+                    "zip": "699-1512",
+                    "phone": "09071328620",
+                    "name": "あつみ 折出",
+                    "province_code": "JP-32",
+                    "country_code": "JP",
+                    "country_name": "Japan",
+                    "default": true
+                }
+            },
+            "discount_applications": [
+                {
+                    "target_type": "line_item",
+                    "type": "discount_code",
+                    "value": "1000.0",
+                    "value_type": "fixed_amount",
+                    "allocation_method": "each",
+                    "target_selection": "entitled",
+                    "code": "mikan500"
+                }
+            ],
+            "fulfillments": [
+                {
+                    "id": 3505665966251,
+                    "admin_graphql_api_id": "gid://shopify/Fulfillment/3505665966251",
+                    "created_at": "2021-08-19T10:12:47+09:00",
+                    "location_id": 57648578731,
+                    "name": "#7485.1",
+                    "order_id": 3946865459371,
+                    "receipt": {},
+                    "service": "manual",
+                    "shipment_status": null,
+                    "status": "success",
+                    "tracking_company": "佐川急便",
+                    "tracking_number": "403069333645",
+                    "tracking_numbers": [
+                        "403069333645"
+                    ],
+                    "tracking_url": "https://k2k.sagawa-exp.co.jp/p/sagawa/web/okurijoinput.jsp",
+                    "tracking_urls": [
+                        "https://k2k.sagawa-exp.co.jp/p/sagawa/web/okurijoinput.jsp"
+                    ],
+                    "updated_at": "2021-08-19T10:12:47+09:00",
+                    "line_items": [
+                        {
+                            "id": 10127829958827,
+                            "admin_graphql_api_id": "gid://shopify/LineItem/10127829958827",
+                            "fulfillable_quantity": 0,
+                            "fulfillment_service": "manual",
+                            "fulfillment_status": "fulfilled",
+                            "gift_card": false,
+                            "grams": 0,
+                            "name": "夏実さんの生みかんはちみつ - 100g×5個　",
+                            "origin_location": {
+                                "id": 3050117922987,
+                                "country_code": "JP",
+                                "province_code": "JP-47",
+                                "name": "トドクヨ【産地直送お取り寄せ通販】",
+                                "address1": "竹富町字上原10-574",
+                                "address2": "",
+                                "city": "八重山郡",
+                                "zip": "9070000"
+                            },
+                            "price": "6600",
+                            "price_set": {
+                                "shop_money": {
+                                    "amount": "6600",
+                                    "currency_code": "JPY"
+                                },
+                                "presentment_money": {
+                                    "amount": "6600",
+                                    "currency_code": "JPY"
+                                }
+                            },
+                            "product_exists": true,
+                            "product_id": 6753471168683,
+                            "properties": [],
+                            "quantity": 1,
+                            "requires_shipping": true,
+                            "sku": "",
+                            "taxable": false,
+                            "title": "夏実さんの生みかんはちみつ",
+                            "total_discount": "0",
+                            "total_discount_set": {
+                                "shop_money": {
+                                    "amount": "0",
+                                    "currency_code": "JPY"
+                                },
+                                "presentment_money": {
+                                    "amount": "0",
+                                    "currency_code": "JPY"
+                                }
+                            },
+                            "variant_id": 40133165351083,
+                            "variant_inventory_management": null,
+                            "variant_title": "100g×5個　",
+                            "vendor": "ふじやファーム",
+                            "tax_lines": [
+                                {
+                                    "price": "0",
+                                    "price_set": {
+                                        "shop_money": {
+                                            "amount": "0",
+                                            "currency_code": "JPY"
+                                        },
+                                        "presentment_money": {
+                                            "amount": "0",
+                                            "currency_code": "JPY"
+                                        }
+                                    },
+                                    "rate": 0.08,
+                                    "title": "CT"
+                                }
+                            ],
+                            "duties": [],
+                            "discount_allocations": [
+                                {
+                                    "amount": "1000",
+                                    "amount_set": {
+                                        "shop_money": {
+                                            "amount": "1000",
+                                            "currency_code": "JPY"
+                                        },
+                                        "presentment_money": {
+                                            "amount": "1000",
+                                            "currency_code": "JPY"
+                                        }
+                                    },
+                                    "discount_application_index": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "line_items": [
+                {
+                    "id": 10127829958827,
+                    "admin_graphql_api_id": "gid://shopify/LineItem/10127829958827",
+                    "fulfillable_quantity": 0,
+                    "fulfillment_service": "manual",
+                    "fulfillment_status": "fulfilled",
+                    "gift_card": false,
+                    "grams": 0,
+                    "name": "夏実さんの生みかんはちみつ - 100g×5個　",
+                    "origin_location": {
+                        "id": 3050117922987,
+                        "country_code": "JP",
+                        "province_code": "JP-47",
+                        "name": "トドクヨ【産地直送お取り寄せ通販】",
+                        "address1": "竹富町字上原10-574",
+                        "address2": "",
+                        "city": "八重山郡",
+                        "zip": "9070000"
+                    },
+                    "price": "6600",
+                    "price_set": {
+                        "shop_money": {
+                            "amount": "6600",
+                            "currency_code": "JPY"
+                        },
+                        "presentment_money": {
+                            "amount": "6600",
+                            "currency_code": "JPY"
+                        }
+                    },
+                    "product_exists": true,
+                    "product_id": 6753471168683,
+                    "properties": [],
+                    "quantity": 1,
+                    "requires_shipping": true,
+                    "sku": "",
+                    "taxable": false,
+                    "title": "夏実さんの生みかんはちみつ",
+                    "total_discount": "0",
+                    "total_discount_set": {
+                        "shop_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        },
+                        "presentment_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        }
+                    },
+                    "variant_id": 40133165351083,
+                    "variant_inventory_management": null,
+                    "variant_title": "100g×5個　",
+                    "vendor": "ふじやファーム",
+                    "tax_lines": [
+                        {
+                            "price": "0",
+                            "price_set": {
+                                "shop_money": {
+                                    "amount": "0",
+                                    "currency_code": "JPY"
+                                },
+                                "presentment_money": {
+                                    "amount": "0",
+                                    "currency_code": "JPY"
+                                }
+                            },
+                            "rate": 0.08,
+                            "title": "CT"
+                        }
+                    ],
+                    "duties": [],
+                    "discount_allocations": [
+                        {
+                            "amount": "1000",
+                            "amount_set": {
+                                "shop_money": {
+                                    "amount": "1000",
+                                    "currency_code": "JPY"
+                                },
+                                "presentment_money": {
+                                    "amount": "1000",
+                                    "currency_code": "JPY"
+                                }
+                            },
+                            "discount_application_index": 0
+                        }
+                    ]
+                }
+            ],
+            "refunds": [],
+            "shipping_address": {
+                "first_name": "あつみ",
+                "address1": "高尾1787ー43",
+                "phone": "09071328620",
+                "city": "仁多郡奥出雲町",
+                "zip": "699-1512",
+                "province": "Shimane",
+                "country": "Japan",
+                "last_name": " 折出",
+                "address2": "",
+                "company": null,
+                "latitude": null,
+                "longitude": null,
+                "name": "あつみ  折出",
+                "country_code": "JP",
+                "province_code": "JP-32"
+            },
+            "shipping_lines": [
+                {
+                    "id": 3340055675051,
+                    "carrier_identifier": null,
+                    "code": "送料無料",
+                    "delivery_category": null,
+                    "discounted_price": "0",
+                    "discounted_price_set": {
+                        "shop_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        },
+                        "presentment_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        }
+                    },
+                    "phone": null,
+                    "price": "0",
+                    "price_set": {
+                        "shop_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        },
+                        "presentment_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        }
+                    },
+                    "requested_fulfillment_service_id": null,
+                    "source": "shopify",
+                    "title": "送料無料",
+                    "tax_lines": [],
+                    "discount_allocations": []
+                }
+            ]
+        }

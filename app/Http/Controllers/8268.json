@@ -1,0 +1,518 @@
+{
+            "id": 4056530550955,
+            "admin_graphql_api_id": "gid://shopify/Order/4056530550955",
+            "app_id": 580111,
+            "browser_ip": "126.89.203.161",
+            "buyer_accepts_marketing": true,
+            "cancel_reason": "customer",
+            "cancelled_at": "2021-10-01T01:06:28+09:00",
+            "cart_token": null,
+            "checkout_id": 21894906806443,
+            "checkout_token": "2acdf14fa912fbde5b03361b51b3362d",
+            "client_details": {
+                "accept_language": "ja-jp",
+                "browser_height": 715,
+                "browser_ip": "126.89.203.161",
+                "browser_width": 414,
+                "session_hash": null,
+                "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1"
+            },
+            "closed_at": null,
+            "confirmed": true,
+            "contact_email": "ogawara@masss.com",
+            "created_at": "2021-10-01T01:05:47+09:00",
+            "currency": "JPY",
+            "current_subtotal_price": "0",
+            "current_subtotal_price_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "current_total_discounts": "0",
+            "current_total_discounts_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "current_total_duties_set": null,
+            "current_total_price": "0",
+            "current_total_price_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "current_total_tax": "0",
+            "current_total_tax_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "customer_locale": "ja",
+            "device_id": null,
+            "discount_codes": [],
+            "email": "ogawara@masss.com",
+            "financial_status": "voided",
+            "fulfillment_status": null,
+            "gateway": "Cash on Delivery (COD)",
+            "landing_site": "/wallets/checkouts.json",
+            "landing_site_ref": null,
+            "location_id": null,
+            "name": "#8268",
+            "note": null,
+            "note_attributes": [],
+            "number": 7268,
+            "order_number": 8268,
+            "order_status_url": "https://todoku-yo.net/51123683499/orders/94687edcb909ab8c0473011539312a79/authenticate?key=d276077f8cfb271d3489fcf52ebc201d",
+            "original_total_duties_set": null,
+            "payment_gateway_names": [
+                "Cash on Delivery (COD)"
+            ],
+            "phone": null,
+            "presentment_currency": "JPY",
+            "processed_at": "2021-10-01T01:05:46+09:00",
+            "processing_method": "manual",
+            "reference": null,
+            "referring_site": "https://todoku-yo.net/collections/%E4%BB%8A%E3%81%8C%E6%97%AC%E3%81%AE%E6%9E%9C%E7%89%A9%E7%89%B9%E9%9B%86/products/oosakikamijima-greenlemon",
+            "source_identifier": null,
+            "source_name": "web",
+            "source_url": null,
+            "subtotal_price": "5400",
+            "subtotal_price_set": {
+                "shop_money": {
+                    "amount": "5400",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "5400",
+                    "currency_code": "JPY"
+                }
+            },
+            "tags": "",
+            "tax_lines": [],
+            "taxes_included": true,
+            "test": false,
+            "token": "94687edcb909ab8c0473011539312a79",
+            "total_discounts": "0",
+            "total_discounts_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_line_items_price": "5400",
+            "total_line_items_price_set": {
+                "shop_money": {
+                    "amount": "5400",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "5400",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_outstanding": "0",
+            "total_price": "5400",
+            "total_price_set": {
+                "shop_money": {
+                    "amount": "5400",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "5400",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_price_usd": "48.24",
+            "total_shipping_price_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_tax": "0",
+            "total_tax_set": {
+                "shop_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                },
+                "presentment_money": {
+                    "amount": "0",
+                    "currency_code": "JPY"
+                }
+            },
+            "total_tip_received": "0",
+            "total_weight": 0,
+            "updated_at": "2021-10-01T01:06:28+09:00",
+            "user_id": null,
+            "billing_address": {
+                "first_name": "テスト",
+                "address1": "中原区井田杉山町",
+                "phone": "080-1111-2222",
+                "city": "川崎市",
+                "zip": "211-0036",
+                "province": "Kanagawa",
+                "country": "Japan",
+                "last_name": "テスト",
+                "address2": "",
+                "company": null,
+                "latitude": 35.5695366,
+                "longitude": 139.6432963,
+                "name": "テスト テスト",
+                "country_code": "JP",
+                "province_code": "JP-14"
+            },
+            "customer": {
+                "id": 5559783653547,
+                "email": "ogawara@masss.com",
+                "accepts_marketing": true,
+                "created_at": "2021-10-01T01:05:30+09:00",
+                "updated_at": "2021-10-01T01:06:30+09:00",
+                "first_name": "テスト",
+                "last_name": "テスト",
+                "orders_count": 1,
+                "state": "disabled",
+                "total_spent": "0.00",
+                "last_order_id": 4056530550955,
+                "note": null,
+                "verified_email": true,
+                "multipass_identifier": null,
+                "tax_exempt": false,
+                "phone": null,
+                "tags": "",
+                "last_order_name": "#8268",
+                "currency": "JPY",
+                "accepts_marketing_updated_at": "2021-10-01T01:05:30+09:00",
+                "marketing_opt_in_level": "single_opt_in",
+                "tax_exemptions": [],
+                "admin_graphql_api_id": "gid://shopify/Customer/5559783653547",
+                "default_address": {
+                    "id": 6793986015403,
+                    "customer_id": 5559783653547,
+                    "first_name": "テスト",
+                    "last_name": "テスト",
+                    "company": null,
+                    "address1": "中原区井田杉山町",
+                    "address2": "",
+                    "city": "川崎市",
+                    "province": "Kanagawa",
+                    "country": "Japan",
+                    "zip": "211-0036",
+                    "phone": "080-1111-2222",
+                    "name": "テスト テスト",
+                    "province_code": "JP-14",
+                    "country_code": "JP",
+                    "country_name": "Japan",
+                    "default": true
+                }
+            },
+            "discount_applications": [],
+            "fulfillments": [],
+            "line_items": [
+                {
+                    "id": 10319401648299,
+                    "admin_graphql_api_id": "gid://shopify/LineItem/10319401648299",
+                    "fulfillable_quantity": 0,
+                    "fulfillment_service": "manual",
+                    "fulfillment_status": null,
+                    "gift_card": false,
+                    "grams": 0,
+                    "name": "大崎上島の拓弥さんのグリーンレモン - 4kg（32～40玉程）",
+                    "origin_location": {
+                        "id": 3050117922987,
+                        "country_code": "JP",
+                        "province_code": "JP-47",
+                        "name": "トドクヨ【産地直送お取り寄せ通販】",
+                        "address1": "竹富町字上原10-574",
+                        "address2": "",
+                        "city": "八重山郡",
+                        "zip": "9070000"
+                    },
+                    "price": "5400",
+                    "price_set": {
+                        "shop_money": {
+                            "amount": "5400",
+                            "currency_code": "JPY"
+                        },
+                        "presentment_money": {
+                            "amount": "5400",
+                            "currency_code": "JPY"
+                        }
+                    },
+                    "product_exists": true,
+                    "product_id": 6971876999339,
+                    "properties": [],
+                    "quantity": 1,
+                    "requires_shipping": true,
+                    "sku": "",
+                    "taxable": false,
+                    "title": "大崎上島の拓弥さんのグリーンレモン",
+                    "total_discount": "0",
+                    "total_discount_set": {
+                        "shop_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        },
+                        "presentment_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        }
+                    },
+                    "variant_id": 40725534146731,
+                    "variant_inventory_management": "shopify",
+                    "variant_title": "4kg（32～40玉程）",
+                    "vendor": "ふじやファーム",
+                    "tax_lines": [
+                        {
+                            "price": "0",
+                            "price_set": {
+                                "shop_money": {
+                                    "amount": "0",
+                                    "currency_code": "JPY"
+                                },
+                                "presentment_money": {
+                                    "amount": "0",
+                                    "currency_code": "JPY"
+                                }
+                            },
+                            "rate": 0.08,
+                            "title": "CT"
+                        }
+                    ],
+                    "duties": [],
+                    "discount_allocations": []
+                }
+            ],
+            "refunds": [
+                {
+                    "id": 822155772075,
+                    "admin_graphql_api_id": "gid://shopify/Refund/822155772075",
+                    "created_at": "2021-10-01T01:06:27+09:00",
+                    "note": null,
+                    "order_id": 4056530550955,
+                    "processed_at": "2021-10-01T01:06:27+09:00",
+                    "restock": true,
+                    "total_duties_set": {
+                        "shop_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        },
+                        "presentment_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        }
+                    },
+                    "user_id": 67053322411,
+                    "order_adjustments": [],
+                    "transactions": [
+                        {
+                            "id": 5059661594795,
+                            "admin_graphql_api_id": "gid://shopify/OrderTransaction/5059661594795",
+                            "amount": "0",
+                            "authorization": null,
+                            "created_at": "2021-10-01T01:06:27+09:00",
+                            "currency": "JPY",
+                            "device_id": null,
+                            "error_code": null,
+                            "gateway": "Cash on Delivery (COD)",
+                            "kind": "void",
+                            "location_id": null,
+                            "message": "Marked the Cash on Delivery (COD) payment as voided",
+                            "order_id": 4056530550955,
+                            "parent_id": 5059659595947,
+                            "processed_at": "2021-10-01T01:06:27+09:00",
+                            "receipt": {},
+                            "source_name": "iphone",
+                            "status": "success",
+                            "test": false,
+                            "user_id": null
+                        }
+                    ],
+                    "refund_line_items": [
+                        {
+                            "id": 319651283115,
+                            "line_item_id": 10319401648299,
+                            "location_id": 57648578731,
+                            "quantity": 1,
+                            "restock_type": "cancel",
+                            "subtotal": 5400.0,
+                            "subtotal_set": {
+                                "shop_money": {
+                                    "amount": "5400",
+                                    "currency_code": "JPY"
+                                },
+                                "presentment_money": {
+                                    "amount": "5400",
+                                    "currency_code": "JPY"
+                                }
+                            },
+                            "total_tax": 0.0,
+                            "total_tax_set": {
+                                "shop_money": {
+                                    "amount": "0",
+                                    "currency_code": "JPY"
+                                },
+                                "presentment_money": {
+                                    "amount": "0",
+                                    "currency_code": "JPY"
+                                }
+                            },
+                            "line_item": {
+                                "id": 10319401648299,
+                                "admin_graphql_api_id": "gid://shopify/LineItem/10319401648299",
+                                "fulfillable_quantity": 0,
+                                "fulfillment_service": "manual",
+                                "fulfillment_status": null,
+                                "gift_card": false,
+                                "grams": 0,
+                                "name": "大崎上島の拓弥さんのグリーンレモン - 4kg（32～40玉程）",
+                                "origin_location": {
+                                    "id": 3050117922987,
+                                    "country_code": "JP",
+                                    "province_code": "JP-47",
+                                    "name": "トドクヨ【産地直送お取り寄せ通販】",
+                                    "address1": "竹富町字上原10-574",
+                                    "address2": "",
+                                    "city": "八重山郡",
+                                    "zip": "9070000"
+                                },
+                                "price": "5400",
+                                "price_set": {
+                                    "shop_money": {
+                                        "amount": "5400",
+                                        "currency_code": "JPY"
+                                    },
+                                    "presentment_money": {
+                                        "amount": "5400",
+                                        "currency_code": "JPY"
+                                    }
+                                },
+                                "product_exists": true,
+                                "product_id": 6971876999339,
+                                "properties": [],
+                                "quantity": 1,
+                                "requires_shipping": true,
+                                "sku": "",
+                                "taxable": false,
+                                "title": "大崎上島の拓弥さんのグリーンレモン",
+                                "total_discount": "0",
+                                "total_discount_set": {
+                                    "shop_money": {
+                                        "amount": "0",
+                                        "currency_code": "JPY"
+                                    },
+                                    "presentment_money": {
+                                        "amount": "0",
+                                        "currency_code": "JPY"
+                                    }
+                                },
+                                "variant_id": 40725534146731,
+                                "variant_inventory_management": "shopify",
+                                "variant_title": "4kg（32～40玉程）",
+                                "vendor": "ふじやファーム",
+                                "tax_lines": [
+                                    {
+                                        "price": "0",
+                                        "price_set": {
+                                            "shop_money": {
+                                                "amount": "0",
+                                                "currency_code": "JPY"
+                                            },
+                                            "presentment_money": {
+                                                "amount": "0",
+                                                "currency_code": "JPY"
+                                            }
+                                        },
+                                        "rate": 0.08,
+                                        "title": "CT"
+                                    }
+                                ],
+                                "duties": [],
+                                "discount_allocations": []
+                            }
+                        }
+                    ],
+                    "duties": []
+                }
+            ],
+            "shipping_address": {
+                "first_name": "テスト",
+                "address1": "中原区井田杉山町",
+                "phone": "080-1111-2222",
+                "city": "川崎市",
+                "zip": "211-0036",
+                "province": "Kanagawa",
+                "country": "Japan",
+                "last_name": "テスト",
+                "address2": "",
+                "company": null,
+                "latitude": 35.5695366,
+                "longitude": 139.6432963,
+                "name": "テスト テスト",
+                "country_code": "JP",
+                "province_code": "JP-14"
+            },
+            "shipping_lines": [
+                {
+                    "id": 3430477758635,
+                    "carrier_identifier": null,
+                    "code": "送料無料",
+                    "delivery_category": null,
+                    "discounted_price": "0",
+                    "discounted_price_set": {
+                        "shop_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        },
+                        "presentment_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        }
+                    },
+                    "phone": null,
+                    "price": "0",
+                    "price_set": {
+                        "shop_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        },
+                        "presentment_money": {
+                            "amount": "0",
+                            "currency_code": "JPY"
+                        }
+                    },
+                    "requested_fulfillment_service_id": null,
+                    "source": "shopify",
+                    "title": "送料無料",
+                    "tax_lines": [],
+                    "discount_allocations": []
+                }
+            ]
+        }

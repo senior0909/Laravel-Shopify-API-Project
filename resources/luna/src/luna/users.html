@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Luna, video monitoring, camera surveillance, cloud solution">
+    <meta name="description" content="Luna is a powerful monitoring system.">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Luna</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- This Page CSS -->
+    <link href="../assets/libs/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- -------------------------------------------------------------- -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- -------------------------------------------------------------- -->
+    <div class="preloader">
+        <svg class="tea lds-ripple" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z" stroke="#1e88e5" stroke-width="2"></path>
+          <path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34" stroke="#1e88e5" stroke-width="2"></path>
+          <path id="teabag" fill="#1e88e5" fill-rule="evenodd" clip-rule="evenodd" d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path>
+          <path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#1e88e5"></path>
+          <path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="#1e88e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- -------------------------------------------------------------- -->
+    <div id="main-wrapper">
+        <!-- -------------------------------------------------------------- -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- -------------------------------------------------------------- -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon">
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span class="logo-text">
+                            <!-- dark Logo text -->
+                            <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo text -->
+                            <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
+                            class="ti-more"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav me-auto">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a
+                                class="nav-link sidebartoggler d-none d-md-block waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item d-none d-md-block search-box"> <a
+                                class="nav-link d-none d-md-block waves-effect waves-dark" href="javascript:void(0)"><i
+                                    class="ti-search"></i></a>
+                            <form class="app-search">
+                                <input type="text" class="form-control" placeholder="Search & enter"> 
+                                <a class="srh-btn"><i class="ti-close"></i></a> 
+                                <a class="form-control text-center" href="search.html">
+                                    <i class="ti-search"></i> Search by image</a>
+                            </form>
+                        </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav">
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark"  href="#" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-bell"></i>
+                                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end mailbox dropdown-menu-animate-up">
+                                <ul class="list-style-none">
+                                    <li>
+                                        <div class="border-bottom rounded-top py-3 px-4">
+                                            <div class="mb-0 font-weight-medium fs-4">Notifications</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center notifications position-relative"
+                                            style="height:230px;">
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)"
+                                                class="message-item d-flex align-items-center border-bottom px-3 py-2">
+                                                <span class="btn btn-light-danger text-danger btn-circle">
+                                                    <i data-feather="link" class="feather-sm fill-white"></i>
+                                                </span>
+                                                <div class="w-75 d-inline-block v-middle ps-3">
+                                                    <h5 class="message-title mb-0 mt-1 fs-3 fw-bold">Luanch Admin</h5> <span
+                                                        class="fs-2 text-nowrap d-block time text-truncate fw-normal text-muted mt-1">Just see
+                                                        the my new admin!</span> <span
+                                                        class="fs-2 text-nowrap d-block subtext text-muted">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)"
+                                                class="message-item d-flex align-items-center border-bottom px-3 py-2">
+                                                <span class="btn btn-light-success text-success btn-circle">
+                                                    <i data-feather="calendar" class="feather-sm fill-white"></i>
+                                                </span>
+                                                <div class="w-75 d-inline-block v-middle ps-3">
+                                                    <h5 class="message-title mb-0 mt-1 fs-3 fw-bold">Event today</h5> <span
+                                                        class="fs-2 text-nowrap d-block time text-truncate fw-normal text-muted mt-1">Just a
+                                                        reminder that you have event</span> <span
+                                                        class="fs-2 text-nowrap d-block subtext text-muted">9:10 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)"
+                                                class="message-item d-flex align-items-center border-bottom px-3 py-2">
+                                                <span class="btn btn-light-info text-info btn-circle">
+                                                    <i data-feather="settings" class="feather-sm fill-white"></i>
+                                                </span>
+                                                <div class="w-75 d-inline-block v-middle ps-3">
+                                                    <h5 class="message-title mb-0 mt-1 fs-3 fw-bold">Settings</h5> <span
+                                                        class="fs-2 text-nowrap d-block time text-truncate fw-normal text-muted mt-1">You can
+                                                        customize this template as you want</span> <span
+                                                        class="fs-2 text-nowrap d-block subtext text-muted">9:08 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)"
+                                                class="message-item d-flex align-items-center border-bottom px-3 py-2">
+                                                <span class="btn btn-light-primary text-primary btn-circle">
+                                                    <i data-feather="users" class="feather-sm fill-white"></i>
+                                                </span>
+                                                <div class="w-75 d-inline-block v-middle ps-3">
+                                                    <h5 class="message-title mb-0 mt-1 fs-3 fw-bold">Pavan kumar</h5> <span
+                                                        class="fs-2 text-nowrap d-block time text-truncate fw-normal text-muted mt-1">Just see
+                                                        the my admin!</span> <span
+                                                        class="fs-2 text-nowrap d-block subtext text-muted">9:02 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link border-top text-center text-dark pt-3"
+                                            href="javascript:void(0);"> <strong>Check all notifications</strong> <i
+                                                class="fa fa-angle-right"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Ojiambo Okumu
+                                <img src="../assets/images/users/1.jpg" alt="user" width="30" class="profile-pic rounded-circle" />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end user-dd animated flipInY">
+                                <div class="d-flex no-block align-items-center p-3 bg-info text-white mb-2">
+                                    <div class=""><img src="../assets/images/users/1.jpg" alt="user" class="rounded-circle" width="60"></div>
+                                    <div class="ms-2">
+                                        <h4 class="mb-0 text-white">Ojiambo Okumu</h4>
+                                        <p class=" mb-0">ojiambokumu@gmail.com</p>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="#"><i data-feather="user" class="feather-sm text-info me-1 ms-1"></i> My
+                                    Profile</a>
+                                <a class="dropdown-item" href="#"><i data-feather="credit-card" class="feather-sm text-info me-1 ms-1"></i>
+                                    My Balance</a>
+                                <a class="dropdown-item" href="#"><i data-feather="mail" class="feather-sm text-success me-1 ms-1"></i>
+                                    Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i data-feather="settings" class="feather-sm text-warning me-1 ms-1"></i>
+                                    Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i data-feather="log-out"
+                                        class="feather-sm text-danger me-1 ms-1"></i> Logout</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="pl-4 p-2"><a href="#"
+                                        class="btn d-block w-100 btn-info rounded-pill">View Profile</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- -------------------------------------------------------------- -->
+        <!-- End Topbar header -->
+        <!-- -------------------------------------------------------------- -->
+        <!-- -------------------------------------------------------------- -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- -------------------------------------------------------------- -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="dashboard.html" aria-expanded="false"><i class="mdi mdi-gauge"></i><span
+                                    class="hide-menu">Dashboard</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="users.html" aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span
+                                    class="hide-menu">People</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="#" aria-expanded="false"><i class="mdi mdi-bell"></i><span
+                                    class="hide-menu">Notifications</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="camera.html" aria-expanded="false"><i class="mdi mdi-camera"></i><span
+                                    class="hide-menu">Camera Devices</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark"
+                                href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-file"></i><span
+                                    class="hide-menu">Other Pages </span></a>
+                            <ul aria-expanded="false" class="collapse first-level">
+                                <li class="sidebar-item"><a href="login.html" class="sidebar-link"><i
+                                    class="mdi mdi-crop-free"></i> <span class="hide-menu">Login</span></a></li>
+                                <li class="sidebar-item"><a href="register.html" class="sidebar-link"><i
+                                    class="mdi mdi-debug-step-over"></i> <span
+                                    class="hide-menu">Register</span></a></li>
+                                <li class="sidebar-item"><a href="search.html" class="sidebar-link"><i
+                                    class="mdi mdi-debug-step-over"></i> <span
+                                    class="hide-menu">Search</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- -------------------------------------------------------------- -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- -------------------------------------------------------------- -->
+        <!-- -------------------------------------------------------------- -->
+        <!-- Page wrapper  -->
+        <!-- -------------------------------------------------------------- -->
+        <div class="page-wrapper">
+            <!-- -------------------------------------------------------------- -->
+            <!-- Container fluid  -->
+            <!-- -------------------------------------------------------------- -->
+            <div class="container-fluid">
+                
+
+                <!-- -------------------------------------------------------------- -->
+                <!-- Start Page Content -->
+                <!-- -------------------------------------------------------------- -->
+                <div class="container-fluid">
+                    <div class="row mb-4">
+                        <div class="col-md-4 col-12 align-self-center">
+                            <h3 class="text-themecolor mb-0">Users</h3>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="btn-group">
+                                <button type="button" class="btn waves-effect waves-light btn-rounded btn-primary">
+                                    Named
+                                </button>
+                                <button type="button" class="btn waves-effect waves-light btn-rounded btn-secondary">
+                                    Unnamed
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 align-self-center d-none d-md-block">
+                            <div class="d-flex mt-2 justify-content-end">
+                                <div class="d-flex me-3 ms-2">
+                                    <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                        href="users2.html" aria-expanded="false">
+                                        <i data-feather="list" class="feather-lg fill-white me-2"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex me-3 ms-2">
+                                    <button type="button" class="justify-content-center w-100 btn btn-secondary d-flex align-items-center">
+                                        <i data-feather="plus" class="feather-sm fill-white me-2"></i> Import
+                                    </button>
+                                </div>
+                                <div class="d-flex ms-2">
+                                    <button type="button" class="justify-content-center w-100 btn btn-info d-flex align-items-center">
+                                        <i data-feather="plus" class="feather-sm fill-white me-2"></i> Add 
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row el-element-overlay">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="el-card-item pb-3">
+                                    <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center"> <img src="../assets/images/users/1-old.jpg" alt="user" class="d-block position-relative w-100" />
+                                        <div class="el-overlay w-100 overflow-hidden">
+                                            <ul class="list-style-none el-info text-white text-uppercase d-inline-block p-0">
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline image-popup-vertical-fit el-link text-white border-white" href="../assets/images/users/1-old.jpg"><i class="icon-magnifier"></i></a></li>
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline el-link text-white border-white" href="user-profile.html"><i class="icon-link"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="el-card-content text-center">
+                                        <h4 class="mb-0">Daisy Musyoka</h4> <span class="text-muted">dmusyoka@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="el-card-item pb-3">
+                                    <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center"> <img src="../assets/images/users/2.jpg" alt="user" class="d-block position-relative w-100" />
+                                        <div class="el-overlay w-100 overflow-hidden">
+                                            <ul class="list-style-none el-info text-white text-uppercase d-inline-block p-0">
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline image-popup-vertical-fit el-link text-white border-white" href="../assets/images/users/2.jpg"><i class="icon-magnifier"></i></a></li>
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline el-link text-white border-white" href="user-profile.html"><i class="icon-link"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="el-card-content text-center">
+                                        <h4 class="mb-0">Larry Tanui</h4> <span class="text-muted">itanui@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="el-card-item pb-3">
+                                    <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center"> <img src="../assets/images/users/3.jpg" alt="user" class="d-block position-relative w-100" />
+                                        <div class="el-overlay w-100 overflow-hidden">
+                                            <ul class="list-style-none el-info text-white text-uppercase d-inline-block p-0">
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline image-popup-vertical-fit el-link text-white border-white" href="../assets/images/users/3.jpg"><i class="icon-magnifier"></i></a></li>
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline el-link text-white border-white" href="user-profile.html"><i class="icon-link"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="el-card-content text-center">
+                                        <h4 class="mb-0">Mary Wairimu</h4> <span class="text-muted">mwairimu@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="el-card-item pb-3">
+                                    <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center"> <img src="../assets/images/users/4.jpg" alt="user" class="d-block position-relative w-100" />
+                                        <div class="el-overlay w-100 overflow-hidden">
+                                            <ul class="list-style-none el-info text-white text-uppercase d-inline-block p-0">
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline image-popup-vertical-fit el-link text-white border-white" href="../assets/images/users/4.jpg"><i class="icon-magnifier"></i></a></li>
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline el-link text-white border-white" href="user-profile.html"><i class="icon-link"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="el-card-content text-center">
+                                        <h4 class="mb-0">John Ndungu</h4> <span class="text-muted">jndungu@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="el-card-item pb-3">
+                                    <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center"> <img src="../assets/images/users/8.jpg" alt="user" class="d-block position-relative w-100" />
+                                        <div class="el-overlay w-100 overflow-hidden">
+                                            <ul class="list-style-none el-info text-white text-uppercase d-inline-block p-0">
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline image-popup-vertical-fit el-link text-white border-white" href="../assets/images/users/8.jpg"><i class="icon-magnifier"></i></a></li>
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline el-link text-white border-white" href="user-profile.html"><i class="icon-link"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="el-card-content text-center">
+                                        <h4 class="mb-0">Ojiambo Okumu</h4> <span class="text-muted">ojiambookumu@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="el-card-item pb-3">
+                                    <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center"> <img src="../assets/images/users/7.jpg" alt="user" class="d-block position-relative w-100" />
+                                        <div class="el-overlay w-100 overflow-hidden">
+                                            <ul class="list-style-none el-info text-white text-uppercase d-inline-block p-0">
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline image-popup-vertical-fit el-link text-white border-white" href="../assets/images/users/7.jpg"><i class="icon-magnifier"></i></a></li>
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline el-link text-white border-white" href="user-profile.html"><i class="icon-link"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="el-card-content text-center">
+                                        <h4 class="mb-0">Hassan Elema</h4> <span class="text-muted">helema@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="el-card-item pb-3">
+                                    <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center"> <img src="../assets/images/users/6.jpg" alt="user" class="d-block position-relative w-100" />
+                                        <div class="el-overlay w-100 overflow-hidden">
+                                            <ul class="list-style-none el-info text-white text-uppercase d-inline-block p-0">
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline image-popup-vertical-fit el-link text-white border-white" href="../assets/images/users/6.jpg"><i class="icon-magnifier"></i></a></li>
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline el-link text-white border-white" href="user-profile.html"><i class="icon-link"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="el-card-content text-center">
+                                        <h4 class="mb-0">Kevin Mwau</h4> <span class="text-muted">kmwau@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="el-card-item pb-3">
+                                    <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center"> <img src="../assets/images/users/d4.jpg" alt="user" class="d-block position-relative w-100" />
+                                        <div class="el-overlay w-100 overflow-hidden">
+                                            <ul class="list-style-none el-info text-white text-uppercase d-inline-block p-0">
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline image-popup-vertical-fit el-link text-white border-white" href="../assets/images/users/d4.jpg"><i class="icon-magnifier"></i></a></li>
+                                                <li class="el-item d-inline-block my-0  mx-1"><a class="btn default btn-outline el-link text-white border-white" href="user-profile.html"><i class="icon-link"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="el-card-content text-center">
+                                        <h4 class="mb-0">Betty Mutiso</h4> <span class="text-muted">bmutiso@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------------------------------------- -->
+                <!-- End PAge Content -->
+                <!-- -------------------------------------------------------------- -->
+            </div>
+            <!-- -------------------------------------------------------------- -->
+            <!-- End Container fluid  -->
+            <!-- -------------------------------------------------------------- -->
+            <!-- -------------------------------------------------------------- -->
+            <!-- footer -->
+            <!-- -------------------------------------------------------------- -->
+            <footer class="footer text-center">
+                   Powered by Vergent Technology Solutions
+            </footer>
+            <!-- -------------------------------------------------------------- -->
+            <!-- End footer -->
+            <!-- -------------------------------------------------------------- -->
+        </div>
+        <!-- -------------------------------------------------------------- -->
+        <!-- End Page wrapper  -->
+        <!-- -------------------------------------------------------------- -->
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <!-- End Wrapper -->
+    <!-- -------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------- -->
+    <!-- All Jquery -->
+    <!-- -------------------------------------------------------------- -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- apps -->
+    <script src="../../dist/js/app.min.js"></script>
+    <script src="../../dist/js/app.init.js"></script>
+    <script src="../../dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="../../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+   <script src="../../dist/js/feather.min.js"></script>
+    <script src="../../dist/js/custom.min.js"></script>
+    <!-- This Page JS -->
+    <script src="../assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/libs/magnific-popup/meg.init.js"></script>
+</body>
+
+</html>
